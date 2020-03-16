@@ -1,0 +1,18 @@
+1.FrameLayout:帧布局，适合只有一个子视图的简单布局，比如填满整个区域的列表视图
+2.数据持久化：
+    1)：onSavedInstanceState
+    2)：SharedPreferences
+    3)：SQLite
+    4)：NetworkedServer
+    5)：内部/外部存储
+    <*******
+    父子关系的activity按back键不会调用父类的onCreate方法,生命周期中，直接调用reStarting方法;
+    *******>
+3.service与loader的指导准则
+    ******when use loader
+    1)tied to the activity lifecycle
+    2)easy to make user interface change and communicate with activity
+    ******when use service
+    1)decoupled from the user interface
+    2)exists even when there is no user interface
+

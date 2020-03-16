@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/entrance_recipe"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingBottom="26dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="12dp"
+    android:background="@drawable/list_touch_selector">
+
+
+    <TextView
+        android:id="@+id/tv_name_recipe_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/iv_picture_recipe_list"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <ImageView
+        android:id="@+id/iv_picture_recipe_list"
+        android:layout_width="372dp"
+        android:layout_height="186dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-3dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_introduce_recipe_list"
+        android:layout_width="269dp"
+        android:layout_height="40dp"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name_recipe_list"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <com.qqlive.aphone.fortest.circleImageView
+        android:id="@+id/civ_chef_recipe_list"
+        android:layout_width="38dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_introduce_recipe_list"
+        app:srcCompat="@drawable/ic_cancel_black_24px"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

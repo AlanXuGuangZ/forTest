@@ -1,0 +1,313 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">forTest</string>
+    <string name="edit_message">分享此刻的心情...</string>
+    <string name="button_message">起飞</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="button_music">音乐</string>
+    <string name="title_activity_my_music">My Music</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- 底部tab text -->
+    <string name="music">音乐</string>
+    <string name="video">视频</string>
+    <string name="animation">动画</string>
+    <string name="net">网络</string>
+    <!--厨房道家tab-->
+    <string name="main">首页</string>
+    <string name="order">订单</string>
+    <string name="chef">厨师</string>>
+    <string name="recipe">菜谱</string>>
+    <string name="process">食材加工</string>>
+    <string name="customized">定制</string>>
+    <!-- 存储技术 -->
+    <string name="button_save">保存</string>
+    <string name="button_echo">回显</string>
+    <string name="button_register">注册</string>
+    <string name="button_sign">登录</string>
+    <!-- 网络请求学习-->
+    <string name="search">搜索</string>
+    <string name="error_message">未获得结果，请重试</string>
+    <!--Sunshine-->
+    <string name="show_error_view">无数据</string>
+    <string name="forcast_title">设置</string>
+    <string name="tomorrow">明天</string>
+    <string name="today">今天</string>
+    <string name="refresh">更新</string>
+    <!--Used by SunshineWeatherUtils-->
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
+    <string name="format_temperature_fahrenheit">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0F
+    </string>
+    <string name="action_share">Share</string>
+    <!--visualizer-->
+    <string name="pref_color_red_value" translatable="false">red</string>
+
+    <!-- Value in SharedPreferences for blue color option -->
+    <string name="pref_color_blue_value" translatable="false">blue</string>
+
+    <!-- Value in SharedPreferences for green color option -->
+    <string name="pref_color_green_value" translatable="false">green</string>
+
+    <string name="pref_color_title">Shape Color</string>
+
+    <string name="pref_color_key" translatable="false">color</string>
+
+    <string name="pref_color_label_red">Red</string>
+    <string name="pref_color_label_blue">Blue</string>
+    <string name="pref_color_label_green">Green</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_show_bass_title">Show Bass</string>
+    <string name="pref_show_mid_title">Show Mid</string>
+    <string name="pref_show_treble_title">Show Treble</string>
+    <string name="pref_show_color_title">Show Color</string>
+    <string name="pref_show_bass_key" translatable="false">show_bass</string>
+    <string name="pref_show_mid_key" translatable="false">show_mid</string>
+    <string name="pref_show_treble_key" translatable="false">show_treble</string>
+    <string name="pref_show_false">Hidden</string>
+    <string name="pref_show_true">Shown</string>
+    <string name="pref_size_title">Set Size</string>
+    <string name="pref_size_key" translatable="false">size</string>
+    <string name="pref_size_default">1</string>
+
+    <!--SunShine-->
+    <!-- - - - - - - - - - - - - - - - -
+      - Used by SunshineWeatherUtils   -
+      - - - - - - - - - - - - - - - - -->
+
+    <!-- Temperature format -->
+    <string name="format_temperature">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0
+    </string>
+    <string name="format_notification">
+        Forecast:<xliff:g id="condition">%1$s</xliff:g> -
+        High:<xliff:g id="high">%2$s</xliff:g>
+        Low:<xliff:g id="low">%3$s</xliff:g>
+    </string>
+
+
+    <string name="wind_label">Wind</string>
+    <!-- Wind in kph -->
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h
+        <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <!-- Wind in mph -->
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph
+        <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <string name="pressure_label">Pressure</string>
+    <!-- Pressure format -->
+    <string name="format_pressure">
+        <xliff:g id="pressure">%1.0f</xliff:g> hPa
+    </string>
+
+    <string name="humidity_label">Humidity</string>
+    <!-- Humidity format -->
+    <string name="format_humidity">
+        <xliff:g id="humidity">%1.0f</xliff:g> %%
+    </string>
+
+
+    <!-- - - - - - - - - - - - - - -
+      - Used by SunshineDateUtils  -
+      - - - - - - - - - - - - - - -->
+
+
+    <!-- Date format -->
+    <string name="format_full_friendly_date">
+        <xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g>
+    </string>
+
+
+    <!-- Weather Conditions (From OpenWeatherMap) -->
+    <string name="condition_2xx">Storm</string>
+    <string name="condition_3xx">Drizzle</string>
+    <string name="condition_500">Light Rain</string>
+    <string name="condition_501">Moderate Rain</string>
+    <string name="condition_502">Heavy Rain</string>
+    <string name="condition_503">Intense Rain</string>
+    <string name="condition_504">Extreme Rain</string>
+    <string name="condition_511">Freezing Rain</string>
+    <string name="condition_520">Light Shower</string>
+    <string name="condition_521">Shower</string>
+    <string name="condition_522">Heavy Shower</string>
+    <string name="condition_531">Ragged Shower</string>
+    <string name="condition_600">Light Snow</string>
+    <string name="condition_601">Snow</string>
+    <string name="condition_602">Heavy Snow</string>
+    <string name="condition_611">Sleet</string>
+    <string name="condition_612">Shower Sleet</string>
+    <string name="condition_615">Rain and Snow</string>
+    <string name="condition_616">Rain and Snow</string>
+    <string name="condition_620">Shower Snow</string>
+    <string name="condition_621">Shower Snow</string>
+    <string name="condition_622">Shower Snow</string>
+    <string name="condition_701">Mist</string>
+    <string name="condition_711">Smoke</string>
+    <string name="condition_721">Haze</string>
+    <string name="condition_731">Sand, Dust</string>
+    <string name="condition_741">Fog</string>
+    <string name="condition_751">Sand</string>
+    <string name="condition_761">Dust</string>
+    <string name="condition_762">Volcanic Ash</string>
+    <string name="condition_771">Squalls</string>
+    <string name="condition_781">Tornado</string>
+    <string name="condition_800">Clear</string>
+    <string name="condition_801">Mostly Clear</string>
+    <string name="condition_802">Scattered Clouds</string>
+    <string name="condition_803">Broken Clouds</string>
+    <string name="condition_804">Overcast Clouds</string>
+    <string name="condition_900">Tornado</string>
+    <string name="condition_901">Tropical Storm</string>
+    <string name="condition_902">Hurricane</string>
+    <string name="condition_903">Cold</string>
+    <string name="condition_904">Hot</string>
+    <string name="condition_905">Windy</string>
+    <string name="condition_906">Hail</string>
+    <string name="condition_951">Calm</string>
+    <string name="condition_952">Light Breeze</string>
+    <string name="condition_953">Gentle Breeze</string>
+    <string name="condition_954">Breeze</string>
+    <string name="condition_955">Fresh Breeze</string>
+    <string name="condition_956">Strong Breeze</string>
+    <string name="condition_957">High Wind</string>
+    <string name="condition_958">Gale</string>
+    <string name="condition_959">Severe Gale</string>
+    <string name="condition_960">Storm</string>
+    <string name="condition_961">Violent Storm</string>
+    <string name="condition_962">Hurricane</string>
+
+    <string name="condition_unknown">Unknown (<xliff:g id="conditionId">%1$d</xliff:g>)</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+      - Used for Accessibility purposes (Accessibility == a11y)                            -
+      -                                                                                    -
+      - Fun Fact: Accessibility is abbreviated a11y because accessibility starts with 'a', -
+      - followed by 11 letters, and then a 'y'. It is pronounced alley, like an alley cat. -
+      - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <string name="a11y_forecast">Forecast: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_forecast_icon">Forecast icon: <xliff:g id="condition">%1$s</xliff:g></string>
+    <string name="a11y_high_temp">High: <xliff:g id="high">%1$s</xliff:g></string>
+    <string name="a11y_low_temp">Low: <xliff:g id="low">%1$s</xliff:g></string>
+    <string name="a11y_humidity">Humidity: <xliff:g id="humidity">%1$s</xliff:g></string>
+    <string name="a11y_pressure">Barometric Pressure: <xliff:g id="pressure">%1$s</xliff:g></string>
+    <string name="a11y_wind">Wind speed and direction: <xliff:g id="wind">%1$s</xliff:g></string>
+
+    <string name="pref_last_notification">last_notification</string>
+
+    <string name="pref_temp_label_celsius">Celsius</string>
+    <string name="pref_temp_label_fahrenheit">Fahrenheit</string>
+    <string name="pref_temp_celsius_value" translatable="false">celsius</string>
+    <string name="pref_temp_fahrenheit_value" translatable="false">fahrenheit</string>
+    <string name="pref_unit_default">celsius</string>
+    <string name="pref_unit_key">unit</string>
+    <string name="pref_temp">Temp Reset</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_title">Location</string>
+    <string name="pref_location_default">Mountain View, CA 94043</string>
+    <!--Waitlist-->
+    <string name="party_size_hint">Party Size</string>
+    <string name="guest_name_hint">Guest Name</string>
+    <string name="party_size_text">Party size (max 99)</string>
+    <string name="add_button_text">ADD</string>
+    <string name="default_party_size">\?</string>
+    <string name="default_guest_name">[Guest Name]</string>
+    <!--content provider-->
+    <string name="show_definition">Show Definition</string>
+    <string name="next_word">Next Word</string>
+
+    <!--todoList-->
+    <string name="edit_task_description">Describe yor task&#8230;</string>
+    <string name="priority_string">Priority</string>
+    <string name="high_priority">High</string>
+    <string name="med_priority">Med</string>
+    <string name="low_priority">Low</string>
+    <string name="add_button_to_task">Add</string>
+
+    <!--background-->
+    <string name="instructions">
+        Press the glass of water after you\'ve hydrated.</string>
+    <string name="water_increment_content_desc">Press to record drinking water</string>
+    <string name="charging_plug_content_desc">charging plug image</string>
+
+    <string name="default_water_count">0</string>
+    <string name="default_charge_notification_count">Hydrate while charging reminder sent 0 times</string>
+
+    <plurals name="charge_notification_count">
+        <item quantity="zero">Hydrate while charging reminder sent %d times</item>
+        <item quantity="one">Hydrate while charging reminder sent %d time</item>
+        <item quantity="other">Hydrate while charging reminder sent %d times</item>
+    </plurals>
+
+    <!-- Strings for Notifications and Toasts -->
+    <string name="water_chug_toast">GLUG GLUG GLUG</string>
+
+    <string name="charging_reminder_notification_title">Device Charging - Where\'s that water?</string>
+    <string name="charging_reminder_notification_body">There\'s never a better time to drink water than when you know your phone is charging. Drink up!</string>
+
+    <!--UI-->
+    <string name="passenger_label">PASSENGER</string>
+    <string name="passenger_name">MR. JAMES BOND</string>
+    <string name="origin_code">SFO</string>
+    <string name="destination_code">LAX</string>
+    <string name="flight_code">UDA 2465</string>
+    <string name="boarding_time_label">BOARDING TIME</string>
+    <string name="boarding_time">02:10 PM</string>
+    <string name="departure_time_label">DEPARTURE</string>
+    <string name="departure_time">02:40 PM</string>
+    <string name="arrival_time">12:40 AM</string>
+    <string name="arrival_time_label">ARRIVAL</string>
+    <string name="boarding_in_time">00:15</string>
+    <string name="boarding_in_label">BOARDING IN</string>
+    <string name="terminal_label">TERMINAL</string>
+    <string name="gate_label">GATE</string>
+    <string name="seat_label">SEAT</string>
+    <string name="terminal">2</string>
+    <string name="gate">58B</string>
+    <string name="seat">24A</string>
+    <string name="countDownFormat">%1$02d:%2$02d</string>
+    <string name="timeFormat">hh:mm a</string>
+
+
+    <!-- Strings for use in the colors and fonts activity -->
+    <string name="light_56">Light 56sp</string>
+    <string name="thin_italic_45">Thin Italic 45sp</string>
+    <string name="condensed_34">Condensed 34sp</string>
+    <string name="reg_24">Regular 24sp</string>
+    <string name="medium_20">Medium 20sp</string>
+
+    <!-- Strings used in the style activity -->
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="drafts">Drafts</string>
+    <string name="sent">Sent</string>
+    <string name="trash">Trash</string>
+
+    <!-- Strings used in the responsive layout activity -->
+    <string name="image_placeholder">Image placeholder.</string>
+    <string name="sample_title">Material Design</string>
+    <string name="sample_date">November, 2016</string>
+    <string name="sample_body_text">Responsive design is the act of creating designs that respond
+        to a variety of screen sizes, shapes, and orientations.</string>
+
+    <!-- Strings used in the touch selectors activity -->
+    <string name="person_icon">Icon of a person.</string>
+    <string name="first">First_name</string>
+    <string name="last">Last_name</string>
+
+    <!-- Activity names -->
+    <string name="color_font_name">Colors and Fonts</string>
+    <string name="style_name">Styles and Themes</string>
+    <string name="responsive_layout_name">Responsive Layouts</string>
+    <string name="touch_selectors_name">Touch Selectors</string>
+
+
+</resources>
+

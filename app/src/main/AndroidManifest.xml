@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qqlive.aphone.fortest"> <!-- 写入数据到external storage与权限 -->
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="com.example.udacity.droidtermsexample.TERMS_READ" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".LeakCanary.LeakCanaryApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <provider
+            android:name=".SunSine.WeatherContentProvider"
+            android:authorities="com.qqlive.aphone.fortest"
+            android:exported="false" />
+        <provider
+            android:name=".TODOList.TaskContentProvider"
+            android:authorities="com.qqlive.aphone.fortest_task"
+            android:exported="false" />
+
+        <activity
+            android:name=".ToyActivity"
+            android:label="ToyBoy" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name=".Kitchen.KitchenTestActivity"></activity>
+        <activity
+            android:name=".SunSine.SunShineMainActivity"
+            android:label="SunShine" />
+        <activity
+            android:name=".GithubActivity"
+            android:label="Github" />
+        <activity
+            android:name=".visualizerpreferences.VisualizerMainActivity"
+            android:label="Music" />
+        <activity android:name=".ToyChildActivity" />
+        <activity android:name=".intent.IntentMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:scheme="geo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SunSine.DetailActivity"
+            android:label="Sunshine" /> <!-- 声明父子关系，顶部出现返回键 -->
+        <activity
+            android:name=".visualizerpreferences.SettingsVisualizerActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".visualizerpreferences.VisualizerMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".visualizerpreferences.VisualizerMainActivity" />
+        </activity>
+        <activity
+            android:name=".SunSine.SettingSunShineActivity"
+            android:label="@string/action_settings"
+            android:parentActivityName=".SunSine.SunShineMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SunSine.SunShineMainActivity" />
+        </activity>
+        <activity android:name=".WaitList.WaitListMainActivity" />
+        <activity android:name=".quiz.QuizMainActivity" />
+        <activity android:name=".TODOList.TaskMainActivity" />
+        <activity android:name=".TODOList.AddTaskActivity" />
+        <activity android:name=".LeakCanary.LeakCanaryTestActivity" />
+        <activity
+            android:name=".background.BackGroundMainActivity"
+            android:launchMode="singleTop" />
+
+        <service
+            android:name=".background.sync.WaterReminderIntentService"
+            android:exported="false" />
+        <service
+            android:name=".SunSine.sync.SunshineSyncIntentService"
+            android:exported="false" />
+        <service
+            android:name=".background.sync.WaterReminderJobSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name=".SunSine.sync.SunshineJobSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".boardingpass.BoardPassMainActivity" />
+        <activity android:name=".UiColorsAndFonts.UiColorsAndFrontsMainActivity" />
+        <activity android:name=".UiColorsAndFonts.ColorFontActivity" />
+        <activity android:name=".UiColorsAndFonts.ResponsiveLayoutActivity" />
+        <activity android:name=".UiColorsAndFonts.SelectorsActivity" />
+        <activity android:name=".UiColorsAndFonts.StyleActivity" />
+    </application>
+
+</manifest>
